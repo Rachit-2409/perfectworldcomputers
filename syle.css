@@ -1,0 +1,153 @@
+:root{
+    --heading : #222831;
+    --subheading : #31363F;
+    --background1 : #76ABAE;
+    --background2 : #EEEEEE;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.height{
+    height: 100%;
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.logo img{
+    max-width:200px ;
+}
+.hero-wrapper{
+    max-height: 850px;
+    background: url(./assests/pexels-jeshoots-238118.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.hero-wrapper h1{
+    color: var(--heading);
+}
+.about-wrapper img{
+    width: 100%;
+}
+.product-wrapper{
+    background: var(--background2);
+}
+.product-box{
+    background: #fff;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-position: top;
+}
+.product-box img{
+    max-width: 150px;
+}
+.mission-wrapper{
+    text-align: left;
+}
+.mission-image{
+    height: 100%;
+}
+.mission-image img{
+   height: 100%;
+   width: 100%;
+}
+.quality-wrapper{
+    padding: 20px;
+}
+.quality-wrapper:nth-child(odd)
+{
+    background: var(--background2);
+}
+
+.quality-wrapper .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-wrapper img{
+   max-width: 375px;
+   margin-bottom: 30px;
+}
+.quality-wrapper .row span{
+    height: 3px;
+    display: inline-block;
+    width: 30%;
+    background-color: var(--background1);
+    position: relative;
+    top: -15px;
+}
+.Strenght-wrapper{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.st-box{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.bi{
+    font-size: 30px;
+}
+
+.gallery-wrapper{
+    background: var(--background2);
+
+    height: 80vh;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input-block{
+    margin: 10px 0;
+  }
+  form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .input-block input,textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--subheading);
+    padding: 10px;
+  }
+  .input-block input:focus, textarea:focus{
+    border-bottom: 2px solid rgb(132, 229, 132);
+  }
