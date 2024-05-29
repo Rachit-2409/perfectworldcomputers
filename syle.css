@@ -105,7 +105,7 @@ h1{
 
 .gallery-wrapper{
     background: var(--background2);
-
+    height: 850px;
 }
 
 .swiper {
@@ -120,6 +120,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   .swiper-slide img {
