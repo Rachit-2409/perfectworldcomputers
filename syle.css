@@ -23,7 +23,7 @@ h1{
     max-width:200px ;
 }
 .hero-wrapper{
-    max-height: 850px;
+    min-height: 750px;
     background: url(./assests/pexels-jeshoots-238118.jpg);
     background-position: left;
     background-size: cover;
